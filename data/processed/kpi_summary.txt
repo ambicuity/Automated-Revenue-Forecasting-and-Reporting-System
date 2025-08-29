@@ -1,0 +1,18 @@
+KPI Dashboard Summary
+====================
+
+Summary Metrics:
+  Total Revenue: 1,891,610
+  Revenue Growth Yoy: 18.0%
+  Revenue Growth Mom: 8.5%
+  Total Customers: 797
+  Revenue Per Customer: 2,373
+  Profit Margin: 26.6%
+  Marketing Roi: 10.35
+
+Performance Alerts: 6 issues identified
+  - Revenue Decline: YoY revenue decline of -7.0%
+  - Monthly Revenue Drop: MoM revenue decline of -11.2%
+  - Revenue Decline: YoY revenue decline of -6.4%
+  - Revenue Decline: YoY revenue decline of -23.2%
+  - Monthly Revenue Drop: MoM revenue decline of -15.2%

@@ -1,0 +1,7 @@
+type,business_unit,message,severity
+Revenue Decline,Enterprise,YoY revenue decline of -7.0%,High
+Monthly Revenue Drop,Enterprise,MoM revenue decline of -11.2%,Medium
+Revenue Decline,SMB,YoY revenue decline of -6.4%,High
+Revenue Decline,Sales,YoY revenue decline of -23.2%,High
+Monthly Revenue Drop,Sales,MoM revenue decline of -15.2%,Medium
+Low Profit Margin,Sales,Profit margin 19.8% below target 20.0%,Medium
