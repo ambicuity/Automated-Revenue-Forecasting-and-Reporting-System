@@ -142,7 +142,7 @@ class KPICalculator:
             kpi_df,
             on='date',
             how='outer'
-        ).fillna(method='ffill')
+        ).ffill()
         
         # Calculate advanced metrics
         advanced_kpis = merged_df.copy()
