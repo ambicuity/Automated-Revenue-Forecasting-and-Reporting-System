@@ -1,0 +1,7 @@
+revenue_records: 180
+kpi_records: 36
+business_units: 5
+date_range: {'start': '2021-01-31', 'end': '2023-12-31'}
+total_revenue: 61605932.379999995
+avg_monthly_revenue: 342255.17988888884
+revenue_growth_rate: 0.09799828003532983
