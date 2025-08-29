@@ -1,8 +1,8 @@
 Revenue Forecast Summary
 =========================
 
-Forecast Period: 2024-01 to 2024-12
-Total Forecast Revenue: 23054933.57540261
-Avg Monthly Forecast: 384248.8929233768
+Forecast Period: 2024-02 to 2025-01
+Total Forecast Revenue: 23053544.0711447
+Avg Monthly Forecast: 384225.73451907834
 Business Units Forecasted: 5
 Forecast Records: 60

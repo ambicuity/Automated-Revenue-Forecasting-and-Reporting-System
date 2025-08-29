@@ -74,8 +74,8 @@ class RevenueForecaster:
         df['revenue_lag3'] = df.groupby('business_unit')['revenue'].shift(3)
         df['revenue_lag12'] = df.groupby('business_unit')['revenue'].shift(12)
         
-        # Fill missing values with forward fill
-        df = df.fillna(method='ffill').fillna(method='bfill')
+        # Fill missing values with forward fill then backward fill
+        df = df.ffill().bfill()
         
         # Feature columns
         feature_cols = ['days_since_start', 'month', 'quarter', 'sin_month', 'cos_month', 
@@ -134,7 +134,7 @@ class RevenueForecaster:
             future_dates = pd.date_range(
                 start=last_date + pd.DateOffset(months=1), 
                 periods=future_periods, 
-                freq='ME'
+                freq='MS'
             )
             
             results[unit] = {
@@ -191,7 +191,7 @@ class RevenueForecaster:
             future_dates = pd.date_range(
                 start=last_date + pd.DateOffset(months=1), 
                 periods=future_periods, 
-                freq='ME'
+                freq='MS'
             )
             
             future_months = future_dates.month
